@@ -1,10 +1,10 @@
-<?xml version="1.0"?>
+<?xml version="1.1"?>
 <info>
 
   <id>menu_on_top</id>
   <name>Menu On Top</name>
   <description>Change the menu display : minify the bar and show by click on the owncloud logo.</description>
-  <version>1.0</version>
+  <version>1.1</version>
   <licence>AGPL</licence>
   <author>Awikatchikaen</author>
   <require>6</require>
