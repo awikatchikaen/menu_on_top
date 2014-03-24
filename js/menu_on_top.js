@@ -30,23 +30,23 @@
 
 
 $(document).ready(function () {
-  $("#navigation").hide();
-  $("#navigation").css("visibility", "visible");
-  $("#owncloud").click(function(e){
-    e.preventDefault();
-    $("#navigation").slideToggle(); 
-  });
-  
-  
-  $("#navigation li a").click(function(e){
-    $("#navigation").slideUp(); 
-  });
+    $("#navigation").hide();
+    $("#navigation").css("visibility", "visible");
+    $("#owncloud").click(function(e){
+        e.preventDefault();
+        $("#navigation").slideToggle(); 
+    });
+      
+      
+    $("#navigation li a").click(function(e){
+        $("#navigation").slideUp(); 
+    });
+    
+    $("#navigation").mouseleave(function(){
+        $("#navigation").slideUp();
+    });
 
-  /*$("#navigation, #owncloud").mouseleave(function(){
-    $("#navigation").slideUp(); 
-  });*/
 });
-
 
 /*
 $(function () {
