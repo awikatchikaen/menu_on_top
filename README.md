@@ -7,6 +7,9 @@ This app reduce the main menu to a list which is hide by default.
 
 It appears by click on the logo on header.
 
+2014/03/26 : v1.2
+- correct error on xml version
+
 2014/03/24 : v1.1
 - auto slide up when mouse not hover
 
